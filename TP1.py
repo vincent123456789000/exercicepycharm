@@ -1,7 +1,7 @@
 #nombre de mots#
 txt = "je m'appel vincent mayer"
-motsdanslaphrase_list = txt.split()
-mots_dans_la_phrase = len(motsdanslaphrase_list)
+count_word = txt.split()
+mots_dans_la_phrase = len(count_word)
 print("Le nombre de mots est affiché ici")
 print(mots_dans_la_phrase)
 
